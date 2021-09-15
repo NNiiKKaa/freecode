@@ -1,4 +1,9 @@
-
+*{
+	color: white;
+}
+body {
+	background: #0000ff;
+}
 #title {
 	text-align: center;
 }
@@ -6,9 +11,10 @@
 	text-align: center;
 }
 form {
-	border: 3px solid black;
+	/*border: 3px solid black;*/
 	width: 720px;
 	margin: 0 auto;
+	background: #00004d;
 
 
 }
@@ -29,7 +35,7 @@ form {
 }
 
 #survey-form p {
-	border: 3px solid red;
+	/*border: 3px solid red;*/
 	width: 632px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -37,7 +43,7 @@ form {
 }
 
 #dropdown {
-	border: 3px solid black;
+	/*border: 3px solid black;*/
 	width: 632px;
 	height: 40px;
 	font-size: 18px;
@@ -46,9 +52,43 @@ form {
 }	
 
 #radios div {
-	border: 3px solid green;
+	/*border: 3px solid green;*/
 	width: 632px;
 	display: block;
 	margin: 15px auto;
 	font-size: 20px;
 }
+
+.cheboxes div {
+	font-size: 20px;
+	/*border: 3px solid yellow;*/
+	width: 632px;
+	margin: 15px auto;
+}
+
+#comments {
+	width: 632px;
+	height: 120px;
+	border-radius: 5px;
+	/*border: 3px solid red;*/
+	margin-top: 20px;
+}
+
+#submit {
+	width: 632px;
+	height: 40px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	background: #00b300;
+	font-size: 20px;
+	color: white;
+
+}
+#submit:hover {
+	background: #00b300;
+	width: 600px;
+	height: 30px;
+	border-radius: 20px;
+	transition: 0.8s;
+}
+
