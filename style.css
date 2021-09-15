@@ -1,0 +1,54 @@
+
+#title {
+	text-align: center;
+}
+#description {
+	text-align: center;
+}
+form {
+	border: 3px solid black;
+	width: 720px;
+	margin: 0 auto;
+
+
+}
+
+.name-div {
+	/*border: 3px solid red;*/
+	width: 632px;
+	margin: 0 auto;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.name-div input {
+	width: 632px;
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#survey-form p {
+	border: 3px solid red;
+	width: 632px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#dropdown {
+	border: 3px solid black;
+	width: 632px;
+	height: 40px;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+}	
+
+#radios div {
+	border: 3px solid green;
+	width: 632px;
+	display: block;
+	margin: 15px auto;
+	font-size: 20px;
+}
